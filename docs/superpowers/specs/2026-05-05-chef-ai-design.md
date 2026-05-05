@@ -75,7 +75,7 @@ SP0: Foundation (monorepo, DB, auth)
 | **Backend API** | Hono (on Node.js/Bun) | Lightweight, fast, TypeScript-native, runs anywhere |
 | **Database** | PostgreSQL 16 + Drizzle ORM | Reliable, pgvector for future search, Drizzle = type-safe |
 | **Cache** | Redis 7 | Session store, rate limiting, agent state pub/sub |
-| **AI SDK** | Vercel AI SDK 4.x | Multi-model (Claude/GPT/Gemini), streaming, tool use built-in |
+| **AI SDK** | Vercel AI SDK 6 | Multi-model (Claude/GPT/Gemini), streaming, tool use, native MCP, gateway fallback |
 | **Plugin Runtime** | MCP (stdio transport) + Docker | Standard protocol, sandboxed execution |
 | **Auth** | Better Auth | Open-source, self-hosted, no vendor lock-in |
 | **Container** | Docker SDK (dockerode) | Plugin isolation, resource limits |
