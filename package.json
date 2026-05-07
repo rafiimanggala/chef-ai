@@ -1,0 +1,18 @@
+{
+  "name": "chef-ai",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "test": "turbo test",
+    "lint": "turbo lint",
+    "db:generate": "turbo db:generate --filter=@chef-ai/api",
+    "db:migrate": "turbo db:migrate --filter=@chef-ai/api",
+    "db:seed": "turbo db:seed --filter=@chef-ai/api"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.0",
+    "typescript": "^5.8.0"
+  },
+  "packageManager": "pnpm@11.0.8"
+}
